@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/canva-training-Ts.-Ain/:path*",
+      "destination": "/:path*"
+    }
+  ]
+}
